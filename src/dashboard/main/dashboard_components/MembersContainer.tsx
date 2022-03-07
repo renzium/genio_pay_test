@@ -2,9 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import ItemContainer from "./ItemContainer";
 
-interface ModalProps {
-  onClick?: Function;
-}
+
 
 const Wrapper = styled.div`
   padding: 0 1.2rem;
