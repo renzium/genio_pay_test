@@ -39,5 +39,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/feather-icons": "^4.7.0",
+    "@types/styled-components": "^5.1.24",
+    "feather-icons": "^4.28.0",
+    "formik": "^2.2.9",
+    "react-router-dom": "^6.2.2",
+    "styled-components": "^5.3.3",
+    "yup": "^0.32.11"
   }
 }
