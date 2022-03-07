@@ -9,7 +9,7 @@ const DashboardLayout = lazy( ()=> import("./dashboard/DashboardLayout"));
       <div className="App">
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
-          <Route path='/dashboard/*' element={<DashboardLayout/>}/>
+          <Route path='/*' element={<DashboardLayout/>}/>
         </Routes>
       </Suspense>
       </div>

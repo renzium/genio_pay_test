@@ -8,7 +8,7 @@ import FormGroup from "../general/components/formGroup/FormGroup";
 import NavDropdownItem from "./sidebar/NavDropdownItem";
 import FeatherIcon from "../general/components/icon/FeatherIcon";
 import InitialsDropdown from "./main/ProfileDropdown";
-import MemberContainer from "./main/workspace-members/MembersContainer";
+import MemberContainer from "./main/dashboard_components/MembersContainer";
 import TopNav from "./TopNav";
 
 const Wrapper = styled.div`

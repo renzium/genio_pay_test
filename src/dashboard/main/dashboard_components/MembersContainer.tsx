@@ -11,7 +11,7 @@ interface ModalProps {
 }
 
 const Wrapper = styled.div`
-  padding: 0 3.2rem;
+  padding: 0 1.2rem;
   & > h3 {
     font-size: 2.4rem;
     line-height: 3.2rem;

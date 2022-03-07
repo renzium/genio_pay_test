@@ -1,5 +1,4 @@
 import React from "react";
-import NavDropdownItem from "./NavDropdownItem";
 import NavItem from "./NavItem";
 import styled from "styled-components";
 import {
@@ -9,11 +8,10 @@ import {
 	fxcentre,
 	logo,
 	perks,
-	plant,
+	// plant,
 	wallet,
 } from "../../assets";
 
-import Button from "../../general/components/button/Button";
 import { useNavigate } from "react-router";
 import NavCar1 from "./NavCar1";
 import NavCar2 from "./NavCar2";
@@ -44,48 +42,7 @@ const Nav = styled.nav`
 	}
 `;
 
-const PopupStyle = styled.div`
-	position: absolute;
-	z-index: 100;
-	top: 3rem;
 
-	& > :first-child {
-		background-color: var(--white);
-		height: 1.7rem;
-		width: 1.7rem;
-		clip-path: polygon(0 100%, 50% 0, 100% 100%);
-		margin-left: 1.5rem;
-		border: none;
-	}
-
-	& > :nth-child(2) {
-		border-radius: 0.8rem;
-		padding: 1.2rem 1rem;
-		width: 18.1rem;
-		height: 14rem;
-		background-color: var(--white);
-		margin-top: -0.1rem;
-
-		& > p:first-child {
-			font-size: 1.2rem;
-		}
-		& > p:nth-child(2) {
-			font-size: 1rem;
-			line-height: 1.4rem;
-			margin: 1.2rem 0 2.4rem;
-			color: var(--text_light);
-		}
-
-		button {
-			font-size: 0.8rem;
-			padding: 0;
-			width: 5.4rem;
-			height: 2.4rem;
-			border-radius: 0.2rem;
-			margin-left: auto;
-		}
-	}
-`;
 
 const Sidebar = () => {
 	const navigate = useNavigate();
@@ -111,6 +68,7 @@ const Sidebar = () => {
 					onClick={() => navigate(item.route)}
 					iconName={item.iconName}
 					key={item.name}
+					route={item.route}
 				/>
 			))}
       <NavCar2 />

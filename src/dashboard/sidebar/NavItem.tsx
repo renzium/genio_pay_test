@@ -22,12 +22,12 @@ color:var(--white);
     width: 1.8rem;
     height:2rem;
     margin-right:2rem;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 
 }
 `
 
-const NavItem = ({name,iconName,onClick}:{name:string,iconName:string,onClick?:React.MouseEventHandler<HTMLDivElement> | undefined}) => {
+const NavItem = ({name,iconName,onClick,route}:{name:string,iconName:string,route:string,onClick?:React.MouseEventHandler<HTMLDivElement> | undefined}) => {
     return (
         <Wrapper onClick={onClick} >
             <div className="icon"><img src={iconName} alt="icon" /></div>

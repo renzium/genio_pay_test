@@ -14,6 +14,7 @@
 :root {
   --border_fm:#AAC0C5;
   --border_nav:#017189;
+  --border_card:#CBD5E1;
   --white:#fff;
   --primary:#017189;
   --primary_lighter: #5772c4;
@@ -24,15 +25,16 @@
   --Accent_3_darker: #9a1324;
   --orange: #ffa800;
   --text_main: #2B4146;
+  --text:#2B4146;
   --background: #f9fafb;
   --background_fm: #F8FCFC;
   --background: #E5E5E5;;
   --rose: #FDA4AF;
+  --slate:#CBD5E1;
   --transparent: transparent;
   --success: #22C55E;
   --warning: #f3bb1c;
   --danger: #be0e0f;
-  --text: #1a1a1a;
   --title:#001B21;
   --border: #efefef;
   --sidebar_bg: #000719;
