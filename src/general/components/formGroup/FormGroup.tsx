@@ -1,11 +1,9 @@
-import React, { useEffect, useState, useRef } from "react";
-// import PropTypes from "prop-types";
+import React, { useEffect, useState} from "react";
 import TextField from "./TextField";
 import Search from "./Search";
 import Multiline from "./Multiline";
 import Dropdown from "./Dropdown";
 import FeatherIcon from "../icon/FeatherIcon";
-import { useField, Form, FormikProps, Formik } from "formik";
 
 interface Props {
   className?: string;

@@ -1,13 +1,8 @@
-import React, { lazy } from "react";
+import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Sidebar from "./sidebar/Sidebar";
 import styled from "styled-components";
-import { Dropdown, getFirstLast } from "./sidebar/NavDropdownItem";
-import FormGroup from "../general/components/formGroup/FormGroup";
-import NavDropdownItem from "./sidebar/NavDropdownItem";
-import FeatherIcon from "../general/components/icon/FeatherIcon";
-import InitialsDropdown from "./main/ProfileDropdown";
 import MemberContainer from "./main/dashboard_components/MembersContainer";
 import TopNav from "./TopNav";
 

@@ -1,10 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import ItemContainer from "./ItemContainer";
-import obinna from "./obinna.svg";
-import leslie from "./leslie.svg";
-import ralph from "./ralph.svg";
-import FeatherIcon from "../../../general/components/icon/FeatherIcon";
 
 interface ModalProps {
   onClick?: Function;
@@ -27,24 +23,13 @@ const Wrapper = styled.div`
 
 
 
-const MEMBERS_DETAIlS = [
-  {
-    name: "Obinna Nwachukwu",
-    mail: "nwachukwu6755@gmail.com",
-    image: obinna,
-    task: 20,
-    ongoing: 6,
-    memberType: "Owner",
-  },
 
-];
 
 const MembersContainer = () => {
-  const [modalWillShow, setModalWillShow] = React.useState(true);
   return (
     <>
       <Wrapper>
-        <ItemContainer buttons={["Own Accounts","Third Party accounts","Borderless Recipient","Mobile Money Recipients"]} members={MEMBERS_DETAIlS} />
+        <ItemContainer buttons={["Own Accounts","Third Party accounts","Borderless Recipient","Mobile Money Recipients"]} />
       </Wrapper>
       
     </>

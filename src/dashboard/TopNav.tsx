@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import FormGroup from "../general/components/formGroup/FormGroup";
 import { useFormik, FormikHelpers } from "formik";
-import * as Yup from "yup";
 import { notification, plant } from "../assets";
 import ProfileDropdown from "./main/ProfileDropdown";
 import FeatherIcon from "../general/components/icon/FeatherIcon";
